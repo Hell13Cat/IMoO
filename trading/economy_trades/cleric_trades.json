@@ -289,7 +289,7 @@
                 }
               ],
               "trader_exp": 30,
-              "max_uses": 12,
+              "max_uses": 6,
               "reward_exp": true
             }
           ]

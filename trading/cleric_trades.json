@@ -125,11 +125,7 @@
               "item": "minecraft:experience_bottle"
             }
           ]
-        }
-      ]
-    },
-    {
-      "trades": [
+        },
         {
           "wants": [
             {

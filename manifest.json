@@ -3,7 +3,7 @@
     "header": {
         "description": "MW Villagers Behavior Pack",
         "name": "MW Villagers",
-        "uuid": "ee649bcf-256c-4013-9068-6a802b89d454",
+        "uuid": "ee649bcf-256c-4015-9068-6a802b89d756",
         "version": [ 0, 0, 1 ],
         "min_engine_version": [ 1, 18, 0 ]
     },
@@ -11,13 +11,13 @@
         {
             "description": "MW Villagers Behavior Pack",
             "type": "data",
-            "uuid": "fa6e90c8-c925-460f-8155-c8a60b753fdvds",
+            "uuid": "fa6e90c8-c225-460f-8155-c8a60b753caa",
             "version": [0, 0, 1]
         }
     ],
     "dependencies": [
         {
-            "uuid": "66c6e9a8-3093-462a-9c36-dbb05216543545",
+            "uuid": "66c6e9a8-3693-462a-9c36-dbb052165822",
             "version": [0, 0, 1]
         }
     ]
