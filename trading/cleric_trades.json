@@ -125,22 +125,6 @@
               "item": "minecraft:experience_bottle"
             }
           ]
-        },
-        {
-          "wants": [
-            {
-              "item": "minecraft:emerald",
-              "quantity": {
-                "min": 9,
-                "max": 11
-              }
-            }
-          ],
-          "gives": [
-            {
-              "item": "minecraft:potion_type:strong_healing"
-            }
-          ]
         }
       ]
     }
