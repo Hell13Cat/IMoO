@@ -8,21 +8,17 @@
     
     "tags": [ "crafting_table" ],
     "pattern": [
-      " . ",
-      "#X#",
-      "   "
+      " # ",
+      "X X",
+      " # "
     ],
     "key": {
-      ".": {
+      "X": {
         "item": "minecraft:coal",
         "data": 0
       },
       "#": {
-          "item": "minecraft:sugar"
-      },
-      "X": {
-        "item": "minecraft:dye",
-        "data": 15
+          "item": "minecraft:blaze_powder"
       }
     },
     "result": {
