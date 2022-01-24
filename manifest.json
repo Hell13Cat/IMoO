@@ -2,9 +2,9 @@
     "format_version": 2,
     "header": {
         "description": "MW Recipes Behavior Pack",
-        "name": "MW Recipes 0.0.3",
+        "name": "MW Recipes 0.0.5",
         "uuid": "ee649bcf-256c-4013-9068-6a802b19d756",
-        "version": [ 0, 0, 3 ],
+        "version": [ 0, 0, 5 ],
         "min_engine_version": [ 1, 18, 0 ]
     },
     "modules": [
@@ -12,13 +12,13 @@
             "description": "MW Recipes Behavior Pack",
             "type": "data",
             "uuid": "fa6e90c8-c925-460f-8355-c8a60b753caa",
-            "version": [0, 0, 3]
+            "version": [0, 0, 5]
         }
     ],
     "dependencies": [
         {
             "uuid": "66c6e9a8-3093-462a-9c36-dbb052765822",
-            "version": [0, 0, 3]
+            "version": [0, 0, 5]
         }
     ]
 }
