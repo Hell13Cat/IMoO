@@ -284,7 +284,6 @@
               ],
               "gives": [
                 {
-                  "choice":1,
                   "item":"minecraft:potion_type:strong_healing",
                   "quantity": 1
                 }
