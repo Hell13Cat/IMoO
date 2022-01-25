@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mw_alko:bottle_water",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "mw_alko:bottle_water",
+      "minecraft:use_animation": "drink",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

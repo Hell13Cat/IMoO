@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "alcohol_ed4657af"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "mw_alko:bottle_water",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:sugar",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "mw_alko:alcohol",
+      "count": 1
+    }
+  }
+}

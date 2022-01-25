@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mw_alko:bottle",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "mw_alko:bottle",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}
