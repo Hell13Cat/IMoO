@@ -8,7 +8,7 @@
     "components": {
       "minecraft:icon": "mw_alko:vine",
       "minecraft:use_animation": "drink",
-      "minecraft:render_offsets": "apple"
+      "minecraft:render_offsets": "miscellaneous"
     }
   }
 }
