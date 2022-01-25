@@ -1,5 +1,5 @@
 {
-  "format_version": "1.10",
+  "format_version": "1.10.0",
   "minecraft:item": {
     "description": {
       "identifier": "mw_alko:bottle",
@@ -7,7 +7,7 @@
     },
     "components": {
       "minecraft:icon": "mw_alko_bottle",
-      "minecraft:render_offsets": "miscellaneous"
+      "minecraft:render_offsets": "apple"
     }
   }
 }
