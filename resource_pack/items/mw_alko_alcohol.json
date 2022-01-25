@@ -6,7 +6,7 @@
       "category": "Equipment"
     },
     "components": {
-      "minecraft:icon": "mw_alko:vodka",
+      "minecraft:icon": "mw_alko_vodka",
       "minecraft:use_animation": "drink",
       "minecraft:render_offsets": "miscellaneous"
     }

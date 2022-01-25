@@ -6,7 +6,7 @@
       "category": "Equipment"
     },
     "components": {
-      "minecraft:icon": "mw_alko:vine",
+      "minecraft:icon": "mw_alko_vine",
       "minecraft:use_animation": "drink",
       "minecraft:render_offsets": "miscellaneous"
     }

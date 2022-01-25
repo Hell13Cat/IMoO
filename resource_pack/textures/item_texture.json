@@ -71,25 +71,25 @@
     "colorful_gifts": {
       "textures": "textures/items/colorful_gifts"
     },
-    "mw_alko:bottle_water": {
+    "mw_alko_bottle_water": {
       "textures": "textures/items/pamobile/mw_alko_bottle_water"
     },
-    "mw_alko:alcohol": {
+    "mw_alko_alcohol": {
       "textures": "textures/items/pamobile/mw_alko_alcohol"
     },
-    "mw_alko:bottle": {
+    "mw_alko_bottle": {
       "textures": "textures/items/pamobile/mw_alko_bottle"
     },
-    "mw_alko:vodka": {
+    "mw_alko_vodka": {
       "textures": "textures/items/pamobile/mw_alko_vodka"
     },
-    "mw_alko:vine": {
+    "mw_alko_vine": {
       "textures": "textures/items/pamobile/mw_alko_vine"
     },
-    "mw_alko:beer": {
+    "mw_alko_beer": {
       "textures": "textures/items/pamobile/mw_alko_beer"
     },
-    "mw_alko:absent": {
+    "mw_alko_absent": {
       "textures": "textures/items/pamobile/mw_alko_absent"
     }
   }
