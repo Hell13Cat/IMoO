@@ -8,22 +8,20 @@
       "crafting_table"
     ],
     "pattern": [
-      " A ",
-      "BBB"
+      "   ",
+      " B ",
+      "   "
     ],
     "key": {
       "A": {
-        "item": "minecraft:bucket",
-        "data": 8
+        "item": "minecraft:bucket"
       },
       "B": {
-        "item": "mw_alko:bottle",
-        "data": 0
+        "item": "mw_alko:bottle"
       }
     },
     "result": {
-      "item": "mw_alko:bottle_water",
-      "count": 1
+      "item": "mw_alko:bottle_water"
     }
   }
 }

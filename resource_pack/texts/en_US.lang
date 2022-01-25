@@ -1,7 +1,10 @@
 item.mw_alko:bottle.name=Бутылка
 item.mw_alko:bottle_water.name=Бутылка с водой
-item.mw_alko:alcohol.name=Спирт
+item.mw_alko:alcohol.name=Самогон
 item.mw_alko:vodka.name=Водка
+item.mw_alko:vine.name=Вино
+item.mw_alko:beer.name=Пиво
+item.mw_alko:absent.name=Абсент
 ## Comments can be added anywhere on a valid line by starting with '##'
 ##
 ## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
