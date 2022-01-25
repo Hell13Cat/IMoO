@@ -1,13 +1,13 @@
 {
   "format_version": 2,
   "header": {
-    "description": "sefsefsefsefsefsefse by sefsfsefsefs",
-    "name": "fdgsefsefsefs",
+    "description": "Система алкоголя для MW",
+    "name": "MW Alko",
     "uuid": "e9eba44a-91d6-41de-a242-76c8c7d0e83b",
     "version": [
       0,
       0,
-      1
+      2
     ],
     "min_engine_version": [
       1,
@@ -17,13 +17,13 @@
   },
   "modules": [
     {
-      "description": "sefsefsefsefsefsefse by sefsfsefsefs",
+      "description": "Система алкоголя для MW",
       "type": "data",
       "uuid": "115c640d-fbfd-48af-8e50-115c5bb6485e",
       "version": [
         0,
         0,
-        1
+        2
       ]
     }
   ],
@@ -33,7 +33,7 @@
       "version": [
         0,
         0,
-        1
+        2
       ]
     }
   ]
