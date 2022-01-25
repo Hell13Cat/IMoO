@@ -2,11 +2,11 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "mw_alko:vodka",
+      "identifier": "mw_alko:alcohol",
       "category": "Nature"
     },
     "components": {
-      "minecraft:icon": "mw_alko:vodka",
+      "minecraft:icon": "mw_alko:alcohol",
       "minecraft:use_animation": "drink",
       "minecraft:render_offsets": "apple"
     }

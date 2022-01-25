@@ -79,6 +79,10 @@
     },
     "mw_alko:bottle": {
       "textures": "textures/items/pamobile/mw_alko_bottle"
+    },
+    "mw_alko:vodka": {
+      "textures": "textures/items/pamobile/mw_alko_vodka"
     }
+  }
   }
 }
