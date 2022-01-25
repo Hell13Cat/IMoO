@@ -3,7 +3,7 @@
   "minecraft:item": {
     "description": {
       "identifier": "mw_alko:bottle_water",
-      "category": "Nature"
+      "category": "Equipment"
     },
     "components": {
       "minecraft:icon": "mw_alko:bottle_water",

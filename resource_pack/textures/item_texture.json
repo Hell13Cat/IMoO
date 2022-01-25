@@ -85,6 +85,12 @@
     },
     "mw_alko:vine": {
       "textures": "textures/items/pamobile/mw_alko_vine"
+    },
+    "mw_alko:beer": {
+      "textures": "textures/items/pamobile/mw_alko_beer"
+    },
+    "mw_alko:absent": {
+      "textures": "textures/items/pamobile/mw_alko_absent"
     }
   }
   }

@@ -3,7 +3,7 @@
   "minecraft:item": {
     "description": {
       "identifier": "mw_alko:vine",
-      "category": "Nature"
+      "category": "Equipment"
     },
     "components": {
       "minecraft:icon": "mw_alko:vine",

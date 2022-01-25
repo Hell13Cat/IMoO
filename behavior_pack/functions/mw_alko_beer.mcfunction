@@ -1,1 +1,1 @@
-give @s mw_alko:absent
+give @s mw_alko:beer

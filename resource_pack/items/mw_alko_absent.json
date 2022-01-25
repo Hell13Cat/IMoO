@@ -2,11 +2,11 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "mw_alko:vodka",
+      "identifier": "mw_alko:absent",
       "category": "Equipment"
     },
     "components": {
-      "minecraft:icon": "mw_alko:vodka",
+      "minecraft:icon": "mw_alko:absent",
       "minecraft:use_animation": "drink",
       "minecraft:render_offsets": "apple"
     }
