@@ -19,13 +19,19 @@
             "name": "nausea",
             "chance": 1,
             "duration": 120,
-            "amplifier": 2
+            "amplifier": 0
           },
           {
             "name": "slowness",
             "chance": 1,
             "duration": 30,
-            "amplifier": 2
+            "amplifier": 0
+          },
+          {
+            "name": "poison",
+            "chance": 1,
+            "duration": 4,
+            "amplifier": 1
           }
         ],
         "remove_effects": [],

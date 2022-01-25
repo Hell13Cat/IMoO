@@ -19,13 +19,13 @@
             "name": "nausea",
             "chance": 1,
             "duration": 100,
-            "amplifier": 1
+            "amplifier": 0
           },
           {
             "name": "slowness",
             "chance": 1,
             "duration": 20,
-            "amplifier": 1
+            "amplifier": 0
           },
           {
             "name": "strength",
