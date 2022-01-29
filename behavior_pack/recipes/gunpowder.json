@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:gunpowder"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " # ",
+      "X X",
+      " # "
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:coal",
+        "data": 1
+      },
+      "#": {
+          "item": "minecraft:blaze_powder"
+      }
+    },
+    "result": {
+      "item": "minecraft:gunpowder",
+      "count": 2
+    }
+  }
+}
