@@ -10,7 +10,8 @@
 				"parent": "itemGroup.name.potion"
 			},
       "minecraft:icon": {
-				"texture": "mw_alko_absent"
+				"texture": "mw_alko_absent",
+        "frame": 0
 			},
       "minecraft:display_name": {
 				"value": "Абсент"
