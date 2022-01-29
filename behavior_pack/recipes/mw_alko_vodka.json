@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_brewing_mix": {
+    "description": {
+      "identifier": "mw_alko:vodka"
+    },
+
+    "tags": [ "brewing_stand" ],
+
+    "input": "mw_alko:alcohol",
+    "reagent": "minecraft:coal",
+    "output": "mw_alko:vodka"
+  }
+}

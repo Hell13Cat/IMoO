@@ -1,0 +1,72 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mw_alko:absent",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+				"texture": "mw_alko",
+        "frame": 1
+			},
+      "minecraft:display_name": {
+				"value": "Абсент"
+			},
+      "minecraft:render_offsets": "potion",
+      "minecraft:use_animation": "drink",
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "saturation_modifier": "low",
+        "nutrition": 4,
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "nausea",
+            "chance": 1,
+            "duration": 300,
+            "amplifier": 2
+          },
+          {
+            "name": "slowness",
+            "chance": 1,
+            "duration": 60,
+            "amplifier": 1
+          },
+          {
+            "name": "strength",
+            "chance": 1,
+            "duration": 90,
+            "amplifier": 1
+          },
+          {
+            "name": "poison",
+            "chance": 1,
+            "duration": 4,
+            "amplifier": 0
+          }
+        ],
+        "on_consume": {
+					"event": "mw_alko:effect"
+				},
+        "remove_effects": [],
+        "using_converts_to": "mw_alko:bottle"
+      },
+      "minecraft:use_duration": 2
+    },
+    "events": {
+			"mw_alko:effect": {
+				"run_command": {
+					"command": [
+						"effect @s nausea 300 3 true",
+            "effect @s slowness 60 1 true",
+            "effect @s strength 90 1 true",
+            "effect @s poison 4 2 true"
+					]
+				}
+			}
+		}
+  }
+}

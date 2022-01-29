@@ -1,0 +1,1 @@
+give @s mw_alko:beer

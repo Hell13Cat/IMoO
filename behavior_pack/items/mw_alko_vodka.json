@@ -1,0 +1,44 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mw_alko:vodka",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+				"texture": "mw_alko",
+        "frame": 5
+			},
+      "minecraft:display_name": {
+				"value": "Водка"
+			},
+      "minecraft:use_animation": "drink",
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "saturation_modifier": "low",
+        "nutrition": 4,
+        "can_always_eat": true,
+        "on_consume": {
+					"event": "mw_alko:effect"
+				},
+        "remove_effects": [],
+        "using_converts_to": "mw_alko:bottle"
+      },
+      "minecraft:use_duration": 3
+    },
+    "events": {
+			"mw_alko:effect": {
+				"run_command": {
+					"command": [
+						"effect @s nausea 100 0 true",
+            "effect @s strength 30 0 true",
+            "effect @s slowness 20 0 true"
+					]
+				}
+			}
+		}
+  }
+}

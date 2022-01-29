@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_brewing_mix": {
+    "description": {
+      "identifier": "mw_alko:vine"
+    },
+
+    "tags": [ "brewing_stand" ],
+
+    "input": "mw_alko:bottle_water",
+    "reagent": "minecraft:sweet_berries",
+    "output": "mw_alko:vine"
+  }
+}
