@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "bottle_87a7cd4d"
+      "identifier": "mw_alko:bottle"
     },
     "tags": [
       "crafting_table"
