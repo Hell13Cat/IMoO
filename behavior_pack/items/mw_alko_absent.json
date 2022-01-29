@@ -48,10 +48,25 @@
             "amplifier": 0
           }
         ],
+        "on_consume": {
+					"event": "mw_alko:effect"
+				},
         "remove_effects": [],
         "using_converts_to": "mw_alko:bottle"
       },
-      "minecraft:use_duration": 3
-    }
+      "minecraft:use_duration": 2
+    },
+    "events": {
+			"mw_alko:effect": {
+				"run_command": {
+					"command": [
+						"effect @s nausea 300 3 true",
+            "effect @s slowness 60 1 true",
+            "effect @s strength 90 1 true",
+            "effect @s poison 4 2 true"
+					]
+				}
+			}
+		}
   }
 }

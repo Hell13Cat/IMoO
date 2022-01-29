@@ -26,14 +26,14 @@
 				},
         "using_converts_to": "mw_alko:bottle"
       },
-      "minecraft:use_duration": 3
+      "minecraft:use_duration": 2
     },
     "events": {
 			"mw_alko:effect": {
 				"run_command": {
 					"command": [
 						"effect @s nausea 80 0 true",
-            "effect @s nausea 20 0 true"
+            "effect @s strength 20 0 true"
 					]
 				}
 			}

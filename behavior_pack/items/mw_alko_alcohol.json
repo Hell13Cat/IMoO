@@ -21,30 +21,24 @@
         "saturation_modifier": "low",
         "nutrition": 4,
         "can_always_eat": true,
-        "effects": [
-          {
-            "name": "nausea",
-            "chance": 1,
-            "duration": 120,
-            "amplifier": 0
-          },
-          {
-            "name": "slowness",
-            "chance": 1,
-            "duration": 30,
-            "amplifier": 0
-          },
-          {
-            "name": "poison",
-            "chance": 1,
-            "duration": 4,
-            "amplifier": 1
-          }
-        ],
+        "on_consume": {
+					"event": "mw_alko:effect"
+				},
         "remove_effects": [],
         "using_converts_to": "mw_alko:bottle"
       },
       "minecraft:use_duration": 3
-    }
+    },
+    "events": {
+			"mw_alko:effect": {
+				"run_command": {
+					"command": [
+						"effect @s nausea 120 0 true",
+            "effect @s poison 4 1 true",
+            "effect @s slowness 30 0 true"
+					]
+				}
+			}
+		}
   }
 }
