@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "mw_alko:bottle_water"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      " B ",
+      "   "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bucket"
+      },
+      "B": {
+        "item": "mw_alko:bottle"
+      }
+    },
+    "result": {
+      "item": "mw_alko:bottle_water"
+    }
+  }
+}

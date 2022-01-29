@@ -1,0 +1,17 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "mw_alko": {
+      "textures": [
+        "textures/items/alko/mw_alko_bottle",
+        "textures/items/alko/mw_alko_absent",
+        "textures/items/alko/mw_alko_alcohol",
+        "textures/items/alko/mw_alko_bottle_water",
+        "textures/items/alko/mw_alko_vine",
+        "textures/items/alko/mw_alko_vodka",
+        "textures/items/alko/mw_alko_beer"
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mw_alko:bottle_water",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+				"texture": "mw_alko",
+        "frame": 3
+			},
+      "minecraft:display_name": {
+				"value": "Бутылка с водой"
+			},
+      "minecraft:use_animation": "drink",
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:foil": false,
+      "minecraft:food": {
+        "saturation_modifier": "normal",
+        "nutrition": 4,
+        "can_always_eat": true,
+        "effects": [],
+        "remove_effects": [],
+        "using_converts_to": "mw_alko:bottle"
+      },
+      "minecraft:use_duration": 3
+    }
+  }
+}
