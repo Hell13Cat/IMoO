@@ -13,6 +13,7 @@
       "minecraft:display_name": {
 				"value": "Абсент"
 			},
+      "minecraft:render_offsets": "potion",
       "minecraft:use_animation": "drink",
       "minecraft:hand_equipped": false,
       "minecraft:max_stack_size": 1,
