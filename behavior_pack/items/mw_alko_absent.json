@@ -51,7 +51,7 @@
         "remove_effects": [],
         "using_converts_to": "mw_alko:bottle"
       },
-      "minecraft:use_duration": 32
+      "minecraft:use_duration": 3
     }
   }
 }
