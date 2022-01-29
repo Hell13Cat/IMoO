@@ -1,5 +1,6 @@
 import json
 import shutil
+import os
 
 databr = json.load(open("behavior_pack\manifest.json", "r", encoding='utf-8'))
 datarr = json.load(open("resource_pack\manifest.json", "r", encoding='utf-8'))
@@ -42,3 +43,8 @@ zip_name_resource = 'MWAlkoR'
 directory_name_resource = 'resource_pack'
 shutil.make_archive(zip_name_resource, 'zip', directory_name_resource)
 shutil.move("MWAlkoR.zip", "MWAlkoR.mcpack")
+
+opeo_file_q = input("""Открыть файлы в Minecraft["+" для открытия]? >""")
+if opeo_file_q == "+":
+    os.startfile("MWAlkoB.mcpack")
+    os.startfile("MWAlkoR.mcpack")
