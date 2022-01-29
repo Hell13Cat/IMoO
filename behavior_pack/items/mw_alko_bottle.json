@@ -3,7 +3,7 @@
   "minecraft:item": {
     "description": {
       "identifier": "mw_alko:bottle",
-      "category": "items"
+      "category": "Items"
     },
     "components": {
       "minecraft:icon": {

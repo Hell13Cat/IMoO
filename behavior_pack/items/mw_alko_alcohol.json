@@ -3,12 +3,20 @@
   "minecraft:item": {
     "description": {
       "identifier": "mw_alko:alcohol",
-      "category": "equipment"
+      "category": "Equipment"
     },
     "components": {
       "minecraft:creative_category": {
 				"parent": "itemGroup.name.potion"
 			},
+      "minecraft:icon": {
+				"texture": "mw_alko_alcohol"
+			},
+      "minecraft:display_name": {
+				"value": "Абсент"
+			},
+      "minecraft:render_offsets": "miscellaneous",
+      "minecraft:use_animation": "drink",
       "minecraft:hand_equipped": false,
       "minecraft:max_stack_size": 1,
       "minecraft:foil": false,
