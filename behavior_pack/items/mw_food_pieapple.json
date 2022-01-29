@@ -1,0 +1,29 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+      "description": {
+        "identifier": "mw_food:pieapple",
+        "category": "Nature"
+      },
+      "components": {
+        "minecraft:icon": {
+                  "texture": "mw_food",
+          "frame": 4
+              },
+        "minecraft:display_name": {
+                  "value": "Яблочный пирог"
+              },
+        "minecraft:use_animation": "eat",
+        "minecraft:hand_equipped": false,
+        "minecraft:max_stack_size": 1,
+        "minecraft:foil": false,
+        "minecraft:food": {
+          "saturation_modifier": "low",
+          "nutrition": 4,
+          "can_always_eat": true,
+          "remove_effects": []
+        },
+        "minecraft:use_duration": 3
+      }
+    }
+  }

@@ -22,32 +22,6 @@
         "saturation_modifier": "low",
         "nutrition": 4,
         "can_always_eat": true,
-        "effects": [
-          {
-            "name": "nausea",
-            "chance": 1,
-            "duration": 300,
-            "amplifier": 2
-          },
-          {
-            "name": "slowness",
-            "chance": 1,
-            "duration": 60,
-            "amplifier": 1
-          },
-          {
-            "name": "strength",
-            "chance": 1,
-            "duration": 90,
-            "amplifier": 1
-          },
-          {
-            "name": "poison",
-            "chance": 1,
-            "duration": 4,
-            "amplifier": 0
-          }
-        ],
         "on_consume": {
 					"event": "mw_alko:effect"
 				},

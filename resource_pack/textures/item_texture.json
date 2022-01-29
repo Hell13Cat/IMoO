@@ -12,6 +12,17 @@
         "textures/items/alko/mw_alko_vodka",
         "textures/items/alko/mw_alko_beer"
       ]
+    },
+    "mw_food": {
+      "textures": [
+        "textures/items/food/choko",
+        "textures/items/food/fishfillet",
+        "textures/items/food/jam",
+        "textures/items/food/jerky",
+        "textures/items/food/pieapple",
+        "textures/items/food/sardines",
+        "textures/items/food/waffles"
+      ]
     }
   }
 }

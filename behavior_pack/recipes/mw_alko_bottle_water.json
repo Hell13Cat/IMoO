@@ -1,25 +1,20 @@
 {
   "format_version": "1.12",
-  "minecraft:recipe_shaped": {
+  "minecraft:recipe_shapeless": {
     "description": {
-      "identifier": "mw_alko:bottle_water"
+    "identifier": "mw_alko:bottle_water"
     },
-    "tags": [
-      "crafting_table"
-    ],
-    "pattern": [
-      "   ",
-      " B ",
-      "   "
-    ],
-    "key": {
-      "A": {
-        "item": "minecraft:bucket"
+    "tags": [ "crafting_table" ],
+    "group": "candle",
+    "ingredients": [
+      {
+          "item": "mw_alko:bottle"
       },
-      "B": {
-        "item": "mw_alko:bottle"
+      {
+        "item": "minecraft:potion",
+        "data": 0
       }
-    },
+    ],
     "result": {
       "item": "mw_alko:bottle_water"
     }

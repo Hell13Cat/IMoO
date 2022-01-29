@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "AAA",
+            " S "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:wheat"
+            },
+            "A": {
+                "item": "minecraft:apple"
+            },
+            "S": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "result": {
+            "item": "mw_food:pieapple"
+        },
+        "description": {
+            "identifier": "mw_food:pieapple"
+        }
+    }
+}
