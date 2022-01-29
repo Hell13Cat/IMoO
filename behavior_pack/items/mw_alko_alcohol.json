@@ -13,7 +13,7 @@
 				"texture": "mw_alko_alcohol"
 			},
       "minecraft:display_name": {
-				"value": "Абсент"
+				"value": "Самогон"
 			},
       "minecraft:render_offsets": "miscellaneous",
       "minecraft:use_animation": "drink",

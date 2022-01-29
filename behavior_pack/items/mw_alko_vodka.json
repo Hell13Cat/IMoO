@@ -13,7 +13,7 @@
 				"texture": "mw_alko_vodka"
 			},
       "minecraft:display_name": {
-				"value": "Бутылка"
+				"value": "Водка"
 			},
       "minecraft:render_offsets": "miscellaneous",
       "minecraft:use_animation": "drink",
