@@ -77,8 +77,11 @@
     "mw_alko_alcohol": {
       "textures": "textures/items/alko/mw_alko_alcohol"
     },
-    "mw_alko_bottle": {
-      "textures": "textures/items/alko/mw_alko_bottle"
+    "mw_alko": {
+      "textures": [
+        "textures/items/alko/mw_alko_bottle",
+        "textures/items/alko/mw_alko_absent"
+      ]
     },
     "mw_alko_vodka": {
       "textures": "textures/items/alko/mw_alko_vodka"

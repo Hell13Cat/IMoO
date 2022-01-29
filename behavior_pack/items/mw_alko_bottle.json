@@ -7,7 +7,8 @@
     },
     "components": {
       "minecraft:icon": {
-				"texture": "mw_alko_bottle"
+				"texture": "mw_alko",
+        "frame": 0
 			},
       "minecraft:display_name": {
 				"value": "Бутылка"
