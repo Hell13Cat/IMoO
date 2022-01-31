@@ -7,3 +7,7 @@
 - [Новые рецепты](https://nyako.icu/Minecraft-Behavior-MW/newrec)
 - [Система алкоголя](https://nyako.icu/Minecraft-Behavior-MW/alko)
 - Новая еда (Скоро)
+
+## Дополнительно
+
+- [История версии](https://nyako.icu/Minecraft-Behavior-MW/version)
