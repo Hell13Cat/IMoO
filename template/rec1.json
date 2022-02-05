@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": " "
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "key": {
+      "-": {
+        "item": " ",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": " ",
+      "count": 0
+    }
+  }
+}

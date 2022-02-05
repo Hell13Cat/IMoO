@@ -32,8 +32,8 @@ datarr["header"]["version"] = info_ver
 datarr["modules"][0]["version"] = info_ver
 datarr["dependencies"][0]["version"] = info_ver
 
-json.dump(databr, open("behavior_pack\manifest.json", "w", encoding='utf-8'), ensure_ascii=False)
-json.dump(datarr, open("resource_pack\manifest.json", "w", encoding='utf-8'), ensure_ascii=False)
+json.dump(databr, open("behavior_pack\manifest.json", "w", encoding='utf-8'), ensure_ascii=False, indent=4)
+json.dump(datarr, open("resource_pack\manifest.json", "w", encoding='utf-8'), ensure_ascii=False, indent=4)
 
 zip_name_behavior = 'MWAlkoB'
 directory_name_behavior = 'behavior_pack'
