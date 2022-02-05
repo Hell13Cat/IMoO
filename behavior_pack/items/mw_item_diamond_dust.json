@@ -1,0 +1,21 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mw_item:diamond_dust",
+            "category": "construction"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "mw_item",
+                "frame": 0
+            },
+            "minecraft:display_name": {
+                "value": "Алмазная пыль"
+            },
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 64,
+            "minecraft:foil": false
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "mw_item:diamond_dust"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "group": "candle",
+        "ingredients": [
+            {
+                "item": "minecraft:diamond"
+            }
+        ],
+        "result": {
+            "item": "mw_item:diamond_dust",
+            "count": 9
+        }
+    }
+}

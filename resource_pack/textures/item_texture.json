@@ -24,6 +24,11 @@
         "textures/items/food/waffles",
         "textures/items/food/fishsteak"
       ]
+    },
+    "mw_item": {
+      "textures": [
+        "textures/items/item/diamond_dust"
+      ]
     }
   }
 }
