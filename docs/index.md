@@ -1,4 +1,4 @@
-# Iroirona mono o oginau
+# ![.](https://nyako.icu/Minecraft-Behavior-MW/imgs/pack_icon.png) Iroirona mono o oginau
 
 Документация для IMoO от [Nyako](https://github.com/Hell13Cat)
 
