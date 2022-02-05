@@ -9,20 +9,20 @@
       ],
       "pattern": [
         "###",
-        "AAA",
-        "ESE"
+        "***",
+        "@!@"
       ],
       "key": {
         "#": {
             "item": "minecraft:wheat"
         },
-        "A": {
+        "*": {
             "item": "minecraft:apple"
         },
-        "S": {
+        "!": {
             "item": "minecraft:sugar"
         },
-        "E": {
+        "@": {
             "item": "minecraft:egg"
         }
       },
