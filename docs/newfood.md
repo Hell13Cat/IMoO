@@ -1,8 +1,8 @@
-## Новые предметы
+## Новая еда
 
 [Главная](https://nyako.icu/IMoO/)
 
-Новые предметы в игре
+Новые еда в игре
 
 ![.](https://nyako.icu/IMoO/imgs/blocks/structure_air.png) - Пустая клетка
 
