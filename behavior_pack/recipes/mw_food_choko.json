@@ -1,26 +1,21 @@
 {
     "format_version": "1.12",
-    "minecraft:recipe_shaped": {
+    "minecraft:recipe_shapeless": {
         "description": {
             "identifier": "mw_food:choko"
         },
-        "tags": [
-            "crafting_table"
-        ],
-        "pattern": [
-            "   ",
-            "   ",
-            "   "
-        ],
-        "key": {
-            "-": {
-                "item": " ",
-                "data": 1
+        "tags": [ "crafting_table" ],
+        "group": "candle",
+        "ingredients": [
+            {
+                "item": "minecraft:sugar"
+            },
+            {
+                "item": "minecraft:cocoa_beans"
             }
-        },
+        ],
         "result": {
-            "item": "mw_food:choko",
-            "count": 1
+            "item": "mw_food:choko"
         }
     }
 }

@@ -1,22 +1,22 @@
 
 {
-    "format_version": "1.12",
-    "minecraft:recipe_shapeless": {
-      "description": {
+  "format_version": "1.12.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
       "identifier": "minecraft:grass"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "candle",
+    "ingredients": [
+      {
+        "item": "minecraft:dirt"
       },
-      "tags": [ "crafting_table" ],
-      "group": "candle",
-      "ingredients": [
-        {
-            "item": "minecraft:dirt"
-        },
-        {
-          "item": "minecraft:wheat_seeds"
-        }
-      ],
-      "result": {
-        "item": "minecraft:grass"
+      {
+        "item": "minecraft:wheat_seeds"
       }
+    ],
+    "result": {
+      "item": "minecraft:grass"
     }
   }
+}
