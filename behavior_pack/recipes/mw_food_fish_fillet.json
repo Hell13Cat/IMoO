@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "mw_food:fish_fillet"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "group": "candle",
+        "ingredients": [
+            {
+                "item": "minecraft:cod"
+            }
+        ],
+        "result": {
+            "item": "mw_food:fish_fillet",
+            "count": 2
+        }
+    }
+}

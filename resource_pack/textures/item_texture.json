@@ -21,7 +21,8 @@
         "textures/items/food/jerky",
         "textures/items/food/pieapple",
         "textures/items/food/sardines",
-        "textures/items/food/waffles"
+        "textures/items/food/waffles",
+        "textures/items/food/fishsteak"
       ]
     }
   }
