@@ -46,5 +46,5 @@ shutil.move("MWAlkoR.zip", "MWAlkoR.mcpack")
 
 opeo_file_q = input("""Открыть файлы в Minecraft["+" для открытия]? >""")
 if opeo_file_q == "+":
-    os.startfile("MWAlkoB.mcpack")
-    os.startfile("MWAlkoR.mcpack")
+    os.startfile("IMoOB.mcpack")
+    os.startfile("IMoOR.mcpack")
