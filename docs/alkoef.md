@@ -1,6 +1,6 @@
 ## Алкоголь
 
-[Главная](https://nyako.icu/Minecraft-Behavior-MW/) / [Алкоголь](https://nyako.icu/Minecraft-Behavior-MW/alko)
+[Главная](https://nyako.icu/IMoO/) / [Алкоголь](https://nyako.icu/IMoO/alko)
 
 Название | Тошнота | Сила | Замедление | Отравление
 --- | --- | --- | --- | ---

@@ -1,6 +1,6 @@
 ## История версий
 
-[Главная](https://nyako.icu/Minecraft-Behavior-MW/)
+[Главная](https://nyako.icu/IMoO/)
 
 История версии аддона
 
@@ -19,7 +19,7 @@
 Добавлены предметы:
 - Алмазная пыль
 
-[Скачать](https://github.com/Hell13Cat/Minecraft-Behavior-MW/releases/tag/v0.4.0)
+[Скачать](https://github.com/Hell13Cat/IMoO/releases/tag/v0.4.0)
 
 ### MW Different 0.3.0
 
@@ -27,7 +27,7 @@
 - В аддон перенесены новые рецепты из MW Recipes
 - Была произведена очистка файлов от лишнего
 
-[Скачать](https://github.com/Hell13Cat/Minecraft-Behavior-MW/releases/tag/v0.3.0)
+[Скачать](https://github.com/Hell13Cat/IMoO/releases/tag/v0.3.0)
 
 ### MW Alko 0.1.1
 
@@ -40,13 +40,13 @@
 - Вино
 - Пиво
 
-[Скачать](https://github.com/Hell13Cat/Minecraft-Behavior-MW/releases/tag/alko0.1.0)
+[Скачать](https://github.com/Hell13Cat/IMoO/releases/tag/alko0.1.0)
 
 ### MW Recipes 0.1.1
 
 Очистка готового пака от лишних файлов
 
-[Скачать](https://github.com/Hell13Cat/Minecraft-Behavior-MW/releases/tag/recipes0.1.1)
+[Скачать](https://github.com/Hell13Cat/IMoO/releases/tag/recipes0.1.1)
 
 ###  MW Recipes 0.1.0
 
@@ -57,4 +57,4 @@
 - Пороха
 - Паутины
 
-[Скачать](https://github.com/Hell13Cat/Minecraft-Behavior-MW/releases/tag/recipes0.1.0)
+[Скачать](https://github.com/Hell13Cat/IMoO/releases/tag/recipes0.1.0)
