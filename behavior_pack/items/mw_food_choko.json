@@ -1,0 +1,29 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mw_food:choko",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "mw_food",
+                "frame": 0
+            },
+            "minecraft:display_name": {
+                "value": "Шоколадка"
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 32,
+            "minecraft:foil": false,
+            "minecraft:food": {
+                "saturation_modifier": "low",
+                "nutrition": 4,
+                "can_always_eat": false,
+                "remove_effects": []
+            },
+            "minecraft:use_duration": 3
+        }
+    }
+}

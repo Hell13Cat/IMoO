@@ -1,1 +1,40 @@
-{"format_version": 2, "header": {"description": "Аддон с разными изменениями", "name": "FantasyAddon by Nyako", "uuid": "e9eba44a-91d6-41de-a242-76c8c7d0e83b", "version": [0, 3, 4], "min_engine_version": [1, 17, 0]}, "modules": [{"description": "Аддон с разными изменениями", "type": "data", "uuid": "115c640d-fbfd-48af-8e50-115c5bb6485e", "version": [0, 3, 4]}], "dependencies": [{"uuid": "8b764b0b-89b1-45df-8f83-9204bccf7184", "version": [0, 3, 4]}]}
+{
+    "format_version": 2,
+    "header": {
+        "description": "Аддон с разными изменениями",
+        "name": "FantasyAddon by Nyako",
+        "uuid": "e9eba44a-91d6-41de-a242-76c8c7d0e83b",
+        "version": [
+            0,
+            3,
+            6
+        ],
+        "min_engine_version": [
+            1,
+            17,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "Аддон с разными изменениями",
+            "type": "data",
+            "uuid": "115c640d-fbfd-48af-8e50-115c5bb6485e",
+            "version": [
+                0,
+                3,
+                6
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "8b764b0b-89b1-45df-8f83-9204bccf7184",
+            "version": [
+                0,
+                3,
+                6
+            ]
+        }
+    ]
+}
