@@ -20,7 +20,7 @@
             "minecraft:food": {
                 "saturation_modifier": "low",
                 "nutrition": 4,
-                "can_always_eat": false,
+                "can_always_eat": true,
                 "remove_effects": [],
                 "on_consume": {
 					"event": "mw_alko:effect"
