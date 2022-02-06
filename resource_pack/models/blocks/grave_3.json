@@ -1,0 +1,47 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.imoo_grave_3",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-6, 0, -7],
+							"size": [12, 1, 14],
+							"uv": {
+								"north": {"uv": [20, 16], "uv_size": [12, 1]},
+								"east": {"uv": [20, 14], "uv_size": [14, 1]},
+								"south": {"uv": [20, 17], "uv_size": [12, 1]},
+								"west": {"uv": [20, 15], "uv_size": [14, 1]},
+								"up": {"uv": [0, 0], "uv_size": [12, 14]},
+								"down": {"uv": [12, 14], "uv_size": [12, -14]}
+							}
+						},
+						{
+							"origin": [-5, 1, -6],
+							"size": [10, 1, 12],
+							"uv": {
+								"north": {"uv": [20, 20], "uv_size": [10, 1]},
+								"east": {"uv": [20, 18], "uv_size": [12, 1]},
+								"south": {"uv": [20, 21], "uv_size": [10, 1]},
+								"west": {"uv": [20, 19], "uv_size": [12, 1]},
+								"up": {"uv": [0, 14], "uv_size": [10, 12]},
+								"down": {"uv": [10, 26], "uv_size": [10, -12]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

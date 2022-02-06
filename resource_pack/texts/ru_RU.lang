@@ -1,3 +1,6 @@
 pack.description=Текстуры для аддона с разными измениями
 tile.imoo:chair.name=Стул
 action.hint.exit.imoo:seat_helper=Прыжок для того чтоб встать
+tile.imoo:grave_1.name=Могильный камень
+tile.imoo:grave_2.name=Могильный крест
+tile.imoo:grave_3.name=Могильная плита

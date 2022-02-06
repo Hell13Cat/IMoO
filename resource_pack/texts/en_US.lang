@@ -1,3 +1,6 @@
 pack.description=Textures for the addon with various changes
 tile.imoo:chair.name=Chair
 action.hint.exit.imoo:seat_helper=Jump to get up
+tile.imoo:grave_1.name=Grave stone
+tile.imoo:grave_2.name=Grave cross
+tile.imoo:grave_3.name=Gravestone

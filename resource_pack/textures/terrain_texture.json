@@ -8,6 +8,21 @@
       "textures": [
         "textures/items/block/imoo_chair"
       ]
+    },
+    "imoo_grave_1": {
+      "textures": [
+        "textures/items/block/imoo_grave_1"
+      ]
+    },
+    "imoo_grave_2": {
+      "textures": [
+        "textures/items/block/imoo_grave_2"
+      ]
+    },
+    "imoo_grave_3": {
+      "textures": [
+        "textures/items/block/imoo_grave_3"
+      ]
     }
   }
 }
