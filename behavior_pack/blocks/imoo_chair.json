@@ -10,7 +10,7 @@
 					5
 				]
 			},
-			"identifier": "bony:imoo_chair",
+			"identifier": "imoo:chair",
 			"is_experimental": false
 		},
 		"permutations": [
@@ -68,7 +68,6 @@
 			}
 		],
 		"components": {
-			"minecraft:display_name": "Стул",
 			"minecraft:on_player_placing": {
 				"event": "bridge:update_rotation"
 			},

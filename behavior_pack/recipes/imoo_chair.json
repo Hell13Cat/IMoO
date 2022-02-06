@@ -1,0 +1,27 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "imoo:chair"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        "###",
+        "###",
+        "| |"
+      ],
+      "key": {
+        "#": {
+            "item": "minecraft:wooden_slab"
+        },
+        "|": {
+            "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "item": "imoo:chair"
+      }
+    }
+  }
