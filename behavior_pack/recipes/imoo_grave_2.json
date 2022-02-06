@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "imoo:grave_2"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        " | ",
+        "|||",
+        " | "
+      ],
+      "key": {
+        "|": {
+            "item": "minecraft:cobblestone_wall",
+            "data": 4
+        }
+      },
+      "result": {
+        "item": "imoo:grave_2",
+        "count": 3
+      }
+    }
+  }
