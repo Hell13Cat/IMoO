@@ -27,7 +27,8 @@
     },
     "mw_item": {
       "textures": [
-        "textures/items/item/diamond_dust"
+        "textures/items/item/diamond_dust",
+        "textures/items/item/fastbuilder"
       ]
     }
   }

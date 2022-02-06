@@ -38,11 +38,11 @@ json.dump(datarr, open("resource_pack\manifest.json", "w", encoding='utf-8'), en
 zip_name_behavior = 'MWAlkoB'
 directory_name_behavior = 'behavior_pack'
 shutil.make_archive(zip_name_behavior, 'zip', directory_name_behavior)
-shutil.move("MWAlkoB.zip", "MWAlkoB.mcpack")
+shutil.move("MWAlkoB.zip", "IMoOB.mcpack")
 zip_name_resource = 'MWAlkoR'
 directory_name_resource = 'resource_pack'
 shutil.make_archive(zip_name_resource, 'zip', directory_name_resource)
-shutil.move("MWAlkoR.zip", "MWAlkoR.mcpack")
+shutil.move("MWAlkoR.zip", "IMoOR.mcpack")
 
 opeo_file_q = input("""Открыть файлы в Minecraft["+" для открытия]? >""")
 if opeo_file_q == "+":

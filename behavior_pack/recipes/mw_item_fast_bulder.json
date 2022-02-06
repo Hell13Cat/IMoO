@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mw_item:fast_bulder"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "@.@",
+            ".-.",
+            "@.@"
+        ],
+        "key": {
+            ".": {
+                "item": "mw_item:diamond_dust"
+            },
+            "@": {
+                "item": "minecraft:cobblestone"
+            },
+            "-": {
+                "item": "minecraft:redstone"
+            }
+        },
+        "result": {
+            "item": "mw_item:fast_bulder",
+            "count": 1
+        }
+    }
+}

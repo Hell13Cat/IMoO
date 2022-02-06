@@ -1,0 +1,51 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mw_item:fast_bulder",
+            "category": "construction"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "mw_item",
+                "frame": 1
+            },
+            "minecraft:display_name": {
+                "value": "Создатель быстрого укрытия"
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 64,
+            "minecraft:foil": false,
+            "minecraft:food": {
+                "saturation_modifier": "low",
+                "nutrition": 4,
+                "can_always_eat": false,
+                "remove_effects": [],
+                "on_consume": {
+					"event": "mw_alko:effect"
+				}
+            },
+            "minecraft:use_duration": 0.1
+        },
+        "events": {
+			"mw_alko:effect": {
+				"run_command": {
+					"command": [
+						"fill ~-2 ~-1 ~-2 ~+2 ~-1 ~+2 cobblestone",
+                        "fill ~-2 ~-1 ~-2 ~-2 ~+3 ~+2 cobblestone",
+                        "fill ~-2 ~-1 ~-2 ~+2 ~+3 ~-2 cobblestone",
+                        "fill ~+2 ~-1 ~+2 ~-2 ~+3 ~+2 cobblestone",
+                        "fill ~+2 ~-1 ~+2 ~+2 ~+3 ~-2 cobblestone",
+                        "fill ~-2 ~+3 ~-2 ~+2 ~+3 ~+2 cobblestone",
+                        "fill ~ ~ ~-2 ~ ~+1 ~-2 air",
+                        "fill ~-1 ~ ~-1 ~+1 ~+2 ~+1 air",
+                        "setblock ~ ~+2 ~+1 torch",
+                        "setblock ~ ~ ~-2 wooden_door 4",
+                        "titleraw @s title {\"rawtext\":[{\"text\":\"\u0423\u043a\u0440\u044b\u0442\u0438\u0435 \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u043e\"}]}"
+					]
+				}
+			}
+		}
+    }
+}
