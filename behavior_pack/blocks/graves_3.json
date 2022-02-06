@@ -66,26 +66,26 @@
 			},
 			"minecraft:entity_collision": {
 				"origin": [
-					-2,
+					-6,
 					0,
-					-1
+					-7
 				],
 				"size": [
-					8,
+					12,
 					2,
-					1
+					14
 				]
 			},
 			"minecraft:pick_collision": {
 				"origin": [
-					-2,
+					-6,
 					0,
-					-1
+					-7
 				],
 				"size": [
-					8,
+					12,
 					2,
-					1
+					14
 				]
 			},
 			"minecraft:creative_category": {

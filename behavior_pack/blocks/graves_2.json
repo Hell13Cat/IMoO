@@ -66,24 +66,24 @@
 			},
 			"minecraft:entity_collision": {
 				"origin": [
-					-6,
+					-5,
 					0,
-					5
+					3
 				],
 				"size": [
-					12,
+					10,
 					13,
 					2
 				]
 			},
 			"minecraft:pick_collision": {
 				"origin": [
-					-6,
+					-5,
 					0,
-					5
+					3
 				],
 				"size": [
-					12,
+					10,
 					13,
 					2
 				]

@@ -68,24 +68,24 @@
 				"origin": [
 					-6,
 					0,
-					5
+					4
 				],
 				"size": [
 					12,
 					13,
-					2
+					3
 				]
 			},
 			"minecraft:pick_collision": {
 				"origin": [
 					-6,
 					0,
-					5
+					4
 				],
 				"size": [
 					12,
 					13,
-					2
+					3
 				]
 			},
 			"minecraft:creative_category": {
