@@ -1,0 +1,3 @@
+pack.description=Textures for the addon with various changes
+tile.imoo:chair.name=Chair
+action.hint.exit.imoo:seat_helper=Jump to get up
