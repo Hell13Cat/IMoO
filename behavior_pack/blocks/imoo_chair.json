@@ -1,0 +1,191 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"bridge:block_rotation": [
+					2,
+					3,
+					4,
+					5
+				]
+			},
+			"identifier": "bony:imoo_chair",
+			"is_experimental": false
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					],
+					"minecraft:on_interact": {
+						"event": "rot_0"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					],
+					"minecraft:on_interact": {
+						"event": "rot_1"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					],
+					"minecraft:on_interact": {
+						"event": "rot_2"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					],
+					"minecraft:on_interact": {
+						"event": "rot_3"
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:display_name": "Стул",
+			"minecraft:on_player_placing": {
+				"event": "bridge:update_rotation"
+			},
+			"minecraft:destroy_time": 0.2,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#ffffff",
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "opaque",
+					"texture": "imoo_chair"
+				}
+			},
+			"minecraft:geometry": "geometry.imoo_chair",
+			"minecraft:block_light_absorption": 0.9,
+			"minecraft:entity_collision": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					9,
+					10
+				]
+			},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.Construction",
+				"category": "Construction"
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
+					0,
+					-5
+				],
+				"size": [
+					10,
+					16,
+					10
+				]
+			}
+		},
+		"events": {
+			"bridge:update_rotation": {
+				"set_block_property": {
+					"bridge:block_rotation": "query.cardinal_facing_2d"
+				}
+			},
+			"force_ride": {
+				"run_command": {
+					"target": "other",
+					"command": [
+						"ride @s start_riding @e[type=imoo:seat_helper,c=1] teleport_rider"
+					]
+				}
+			},
+			"rot_0": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"summon imoo:seat_helper ~ ~ ~",
+								"execute @e[type=imoo:seat_helper,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~1"
+							]
+						},
+						"trigger": {
+							"event": "force_ride"
+						}
+					}
+				]
+			},
+			"rot_1": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"summon imoo:seat_helper ~ ~-0.1 ~",
+								"execute @e[type=imoo:seat_helper,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~ ~ ~-1"
+							]
+						},
+						"trigger": {
+							"event": "force_ride"
+						}
+					}
+				]
+			},
+			"rot_2": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"summon imoo:seat_helper ~ ~-0.1 ~",
+								"execute @e[type=imoo:seat_helper,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~1 ~ ~"
+							]
+						},
+						"trigger": {
+							"event": "force_ride"
+						}
+					}
+				]
+			},
+			"rot_3": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"summon imoo:seat_helper ~ ~-0.1 ~",
+								"execute @e[type=imoo:seat_helper,c=1] ~ ~ ~ tp @s ~ ~ ~ facing ~-1 ~ ~"
+							]
+						},
+						"trigger": {
+							"event": "force_ride"
+						}
+					}
+				]
+			}
+		}
+	}
+}
