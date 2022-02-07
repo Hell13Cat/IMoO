@@ -4,3 +4,5 @@ action.hint.exit.imoo:seat_helper=Jump to get up
 tile.imoo:grave_1.name=Grave stone
 tile.imoo:grave_2.name=Grave cross
 tile.imoo:grave_3.name=Gravestone
+item.spawn_egg.entity.imoo:sfw.name=Create a fluffy
+entity.imoo:sfw.name=Fluffy

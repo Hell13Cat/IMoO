@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "imoo:sfw",
+      "materials": {
+        "default": "entity",
+        "body_layer": "silverfish_layers"
+      },
+      "textures": {
+        "default": "textures/entity/imoo_sfw"
+      },
+      "geometry": {
+        "default": "geometry.imoo_sfw"
+      },
+      "animations": {
+        "move": "animation.silverfish.move"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.silverfish.move" }
+      ],
+      "render_controllers": [ "controller.render.silverfish" ],
+      "spawn_egg": {
+        "texture": "mw_item",
+        "texture_index": 2
+      }
+    }
+  }
+}

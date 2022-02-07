@@ -28,7 +28,8 @@
     "mw_item": {
       "textures": [
         "textures/items/item/diamond_dust",
-        "textures/items/item/fastbuilder"
+        "textures/items/item/fastbuilder",
+        "textures/items/mob/imoo_egg_sfw"
       ]
     }
   }

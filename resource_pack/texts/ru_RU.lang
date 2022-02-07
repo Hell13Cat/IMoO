@@ -4,3 +4,5 @@ action.hint.exit.imoo:seat_helper=Прыжок для того чтоб вста
 tile.imoo:grave_1.name=Могильный камень
 tile.imoo:grave_2.name=Могильный крест
 tile.imoo:grave_3.name=Могильная плита
+item.spawn_egg.entity.imoo:sfw.name=Создать пушистика
+entity.imoo:sfw.name=Пушистик
