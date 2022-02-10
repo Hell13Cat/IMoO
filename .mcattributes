@@ -1,2 +1,3 @@
 diagnostic.disable.minecraft.manifest.module.missing=true
 diagnostic.disable.minecraft.manifest.module.missing=true
+diagnostic.disable.behaviorpack.loot_table.missing=true
