@@ -4,6 +4,16 @@
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
+    "imoo_sakura":{
+      "textures":[
+        "textures/blocks/leaves_sakura_carried",
+        "textures/blocks/leaves_sakura_opaque",
+        "textures/blocks/leaves_sakura",
+        "textures/blocks/log_sakura_top",
+        "textures/blocks/log_sakura",
+        "textures/blocks/sapling_sakura"
+      ]
+    },
     "imoo_chair": {
       "textures": [
         "textures/items/block/imoo_chair"
