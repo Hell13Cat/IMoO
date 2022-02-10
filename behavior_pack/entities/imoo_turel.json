@@ -33,9 +33,9 @@
           "burst_interval": 0.3,
           "charge_charged_trigger": 0.0,
           "charge_shoot_trigger": 4.0,
-          "attack_interval_min": 3.0,
-          "attack_interval_max": 5.0,
-          "attack_radius": 16.0
+          "attack_interval_min": 2.0,
+          "attack_interval_max": 4.0,
+          "attack_radius": 40.0
         }
       },
       "melee_mode": {
@@ -102,9 +102,25 @@
       "minecraft:behavior.hurt_by_target": {
         "priority": 1
       },
+      "minecraft:behavior.target_when_pushed": {
+        "priority": 1,
+        "percent_chance": 5.0,
+        "entity_types": [
+          {
+            "filters": { 
+              "all_of": [
+                { "test" :  "is_family", "subject" : "other", "value" :  "monster" },
+                { "test" :  "is_family", "subject" : "other", "operator": "!=", "value" :  "creeper" }
+              ] 
+            }
+          }
+        ]
+      },
       "minecraft:behavior.nearest_attackable_target": {
-        "priority": 2,
+        "priority": 3,
+        "must_reach": true,
         "must_see": true,
+
         "entity_types": [
           {
             "filters": {
@@ -122,7 +138,41 @@
                 }
               ]
             },
-            "max_dist": 48.0
+            "within_default": 50
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "hoglin"
+                },
+                {
+                  "test": "is_difficulty",
+                  "operator": "!=",
+                  "value": "peaceful"
+                }
+              ]
+            },
+            "max_dist": 50
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "value": "zoglin"
+                },
+                {
+                  "test": "is_difficulty",
+                  "operator": "!=",
+                  "value": "peaceful"
+                }
+              ]
+            },
+            "max_dist": 50
           }
         ]
       },
@@ -134,7 +184,7 @@
         "priority": 5
       },
       "minecraft:type_family": {
-        "family": [ "blaze", "monster", "mob" ]
+        "family": [ "turel", "mob" ]
       },
       "minecraft:physics": {
       },

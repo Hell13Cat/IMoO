@@ -1,0 +1,39 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "imoo:turel_del",
+            "category": "construction"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "mw_item",
+                "frame": 4
+            },
+            "minecraft:use_animation": "drink",
+            "minecraft:hand_equipped": false,
+            "minecraft:max_stack_size": 64,
+            "minecraft:foil": false,
+            "minecraft:food": {
+                "saturation_modifier": "low",
+                "nutrition": 4,
+                "can_always_eat": true,
+                "remove_effects": [],
+                "on_consume": {
+					"event": "imoo:turel_del"
+				},
+                "using_converts_to": "mw_alko:bottle"
+            },
+            "minecraft:use_duration": 0.1
+        },
+        "events": {
+			"imoo:turel_dell": {
+				"run_command": {
+					"command": [
+						"kill @e[type=imoo:turel, r=2]"
+					]
+				}
+			}
+		}
+    }
+}
