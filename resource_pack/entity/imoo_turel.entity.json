@@ -2,17 +2,17 @@
   "format_version": "1.8.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "minecraft:blaze",
+      "identifier": "imoo:turel",
       "min_engine_version": "1.8.0",
       "materials": {
         "body": "blaze_body",
         "head": "blaze_head"
       },
       "textures": {
-        "default": "textures/entity/blaze"
+        "default": "textures/entity/imoo_turel"
       },
       "geometry": {
-        "default": "geometry.blaze"
+        "default": "geometry.imoo_turel"
       },
       "animations": {
         "look_at_target": "animation.common.look_at_target",
@@ -27,8 +27,8 @@
       ],
       "render_controllers": [ "controller.render.blaze" ],
       "spawn_egg": {
-        "texture": "spawn_egg",
-        "texture_index": 21
+        "texture": "mw_item",
+        "texture_index": 3
       }
     }
   }

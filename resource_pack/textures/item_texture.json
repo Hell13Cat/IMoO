@@ -30,7 +30,8 @@
         "textures/items/item/diamond_dust",
         "textures/items/item/fastbuilder",
         "textures/items/mob/imoo_egg_sfw",
-        "textures/items/mob/imoo_egg_abat"
+        "textures/items/mob/imoo_turel_add",
+        "textures/items/mob/imoo_turel_del"
       ]
     }
   }
