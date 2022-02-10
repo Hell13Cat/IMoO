@@ -6,3 +6,6 @@ tile.imoo:grave_2.name=Grave cross
 tile.imoo:grave_3.name=Gravestone
 item.spawn_egg.entity.imoo:sfw.name=Create a fluffy
 entity.imoo:sfw.name=Fluffy
+item.spawn_egg.entity.imoo:turel.name=Install turret
+item.imoo:turel_del=Remove turret
+entity.imoo:turel.name=Turret

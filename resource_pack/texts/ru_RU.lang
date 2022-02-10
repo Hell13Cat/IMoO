@@ -6,3 +6,6 @@ tile.imoo:grave_2.name=Могильный крест
 tile.imoo:grave_3.name=Могильная плита
 item.spawn_egg.entity.imoo:sfw.name=Создать пушистика
 entity.imoo:sfw.name=Пушистик
+item.spawn_egg.entity.imoo:turel.name=Установить турель
+item.imoo:turel_del=Убрать турель
+entity.imoo:turel.name=Турель
