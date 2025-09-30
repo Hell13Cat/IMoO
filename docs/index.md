@@ -4,11 +4,11 @@
 
 ## Разделы
 
-- [Новые рецепты](https://nyako.icu/IMoO/newrec)
-- [Система алкоголя](https://nyako.icu/IMoO/alko)
-- [Новая еда](https://nyako.icu/IMoO/newfood)
-- [Новые предметы](https://nyako.icu/IMoO/newitem)
+- [Новые рецепты](newrec)
+- [Система алкоголя](alko)
+- [Новая еда](newfood)
+- [Новые предметы](newitem)
 
 ## Дополнительно
 
-- [История версии](https://nyako.icu/IMoO/version)
+- [История версии](version)
