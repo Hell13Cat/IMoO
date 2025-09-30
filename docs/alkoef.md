@@ -1,6 +1,6 @@
 ## Алкоголь
 
-[Главная](https://nyako.icu/IMoO/) / [Алкоголь](https://nyako.icu/IMoO/alko)
+[Главная](http://nyan.pw/IMoO/) / [Алкоголь](http://nyan.pw/IMoO/alko)
 
 Название | Тошнота | Сила | Замедление | Отравление
 --- | --- | --- | --- | ---
