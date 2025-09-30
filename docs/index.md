@@ -4,11 +4,11 @@
 
 ## Разделы
 
-- [Новые рецепты](newrec)
-- [Система алкоголя](alko)
-- [Новая еда](newfood)
-- [Новые предметы](newitem)
+- [Новые рецепты](http://nyan.pw/IMoO/newrec)
+- [Система алкоголя](http://nyan.pw/IMoO/alko)
+- [Новая еда](http://nyan.pw/IMoO/newfood)
+- [Новые предметы](http://nyan.pw/IMoO/newitem)
 
 ## Дополнительно
 
-- [История версии](version)
+- [История версии](http://nyan.pw/IMoO/version)
